@@ -1,4 +1,4 @@
-
+package Lab1;
 public class Lab1A {
     public static void main(String[] args) {
         char[] [] regularPixel = make_forward();
