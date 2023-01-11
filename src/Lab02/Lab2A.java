@@ -51,6 +51,9 @@ public class Lab2A {
                 case 8:
                     menu = false;
                     break;
+                default:
+                    System.out.println("Invalid Option: Please try again.");
+                    break;
             }
         } while(menu);
 
