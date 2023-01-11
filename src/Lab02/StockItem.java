@@ -11,7 +11,7 @@ public class StockItem {
 
 
 
-    public void StockItem() {
+    public StockItem() {
         this.Description = null;
         this.price = 0;
         this.id = 0;
@@ -33,7 +33,6 @@ public class StockItem {
     public int getID() { return id; }
     public double getPrice() { return  price; }
     public int getQuantity() { return quantity; }
-
     public void setDescription(String description) {
         Description = description;
     }
@@ -53,14 +52,6 @@ public class StockItem {
         } else if (quantity < this.quantity) {
             this.quantity  = this.quantity - quantity;
         }
-
     }
-    public void raiseQuantity(int quantity) {
-        this.quantity = quantity + this.quantity;
-    }
-
-
-
-
-
+    public void raiseQuantity(int quantity) { this.quantity = quantity + this.quantity; }
 }
