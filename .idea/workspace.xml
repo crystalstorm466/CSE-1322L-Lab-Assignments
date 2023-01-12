@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a8738321-e15f-478e-b441-c4b789b28a48" name="Changes" comment="renamed folder to Lab01 so when we reach double digits it stays in line">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="a8738321-e15f-478e-b441-c4b789b28a48" name="Changes" comment="cleaned up code">
+      <change afterPath="$PROJECT_DIR$/src/lectureCode/calculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab02/Lab2A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab02/Lab2A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab02/StockItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab02/StockItem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +76,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673360387972</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added default branch">
+      <created>1673458194199</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1673458194199</updated>
+    </task>
+    <task id="LOCAL-00006" summary="cleaned up code">
+      <created>1673458213225</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1673458213225</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -96,6 +108,8 @@
     <MESSAGE value="First Commit" />
     <MESSAGE value="Added Lab2. Everything works." />
     <MESSAGE value="renamed folder to Lab01 so when we reach double digits it stays in line" />
-    <option name="LAST_COMMIT_MESSAGE" value="renamed folder to Lab01 so when we reach double digits it stays in line" />
+    <MESSAGE value="added default branch" />
+    <MESSAGE value="cleaned up code" />
+    <option name="LAST_COMMIT_MESSAGE" value="cleaned up code" />
   </component>
 </project>
