@@ -36,7 +36,7 @@ public class calculator {
                     menu = false;
                     break;
                 case 6:
-                    finalNumber = idiotNumber(firstNumber);
+                    idiotNumber(firstNumber);
                 default:
                     throw new IllegalStateException("Unexpected value: " + operation);
             }
@@ -44,7 +44,7 @@ public class calculator {
         }
     }
 
-    private static double idiotNumber(double firstNumber) throws IOException {
+    private static void idiotNumber(double firstNumber) throws IOException {
         System.out.println("Why did you choose this option?");
         System.out.println("Are you an actual idiot?");
 
@@ -59,8 +59,6 @@ public class calculator {
             System.out.println("Stop. Just stop.");
             System.exit(0);
         }
-
-        return firstNumber;
     }
 
     private static double subtractNumber(double first) {
