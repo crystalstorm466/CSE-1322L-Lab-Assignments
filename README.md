@@ -16,6 +16,7 @@ for the Spring 2023 Semester at Kennesaw State University
 [CCSE-1322 Lab Assignments](https://ccse.kennesaw.edu/fye/labs_and_assignments.php)
 
 [CCSE-1322 Resources](https://ccse.kennesaw.edu/fye/resources.php)
+
 Current Assignments:
 
     1. Lab 1
