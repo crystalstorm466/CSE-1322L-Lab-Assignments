@@ -1,4 +1,4 @@
-**CCSE-1322L Program Problems Solving II Lab Assignmentss**
+**CCSE-1322L Program Problems Solving II Lab Assignments**
 
 Class: 1322L
 
