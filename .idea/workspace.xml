@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a8738321-e15f-478e-b441-c4b789b28a48" name="Changes" comment="coded a calculator in like 10 minutes">
+    <list default="true" id="a8738321-e15f-478e-b441-c4b789b28a48" name="Changes" comment="made the same method void">
+      <change afterPath="$PROJECT_DIR$/src/Lab03/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab03/Question.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab03/Quiz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lectureCode/scratchWork.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lectureCode/calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lectureCode/calculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +102,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673538311108</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="&quot;spams&quot; the user if they select 6 and if they use an even number">
+      <created>1673639656815</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1673639656815</updated>
+    </task>
+    <task id="LOCAL-00009" summary="made the same method void">
+      <created>1673639723428</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1673639723428</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -118,6 +137,8 @@
     <MESSAGE value="added default branch" />
     <MESSAGE value="cleaned up code" />
     <MESSAGE value="coded a calculator in like 10 minutes" />
-    <option name="LAST_COMMIT_MESSAGE" value="coded a calculator in like 10 minutes" />
+    <MESSAGE value="&quot;spams&quot; the user if they select 6 and if they use an even number" />
+    <MESSAGE value="made the same method void" />
+    <option name="LAST_COMMIT_MESSAGE" value="made the same method void" />
   </component>
 </project>
