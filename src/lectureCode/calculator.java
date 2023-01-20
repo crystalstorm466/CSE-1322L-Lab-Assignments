@@ -60,7 +60,6 @@ public class calculator {
             System.exit(0);
         }
     }
-
     private static double subtractNumber(double first) {
         System.out.print("What is your second number?");
         double secondNumber = scan.nextDouble();
