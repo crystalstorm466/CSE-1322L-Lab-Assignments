@@ -1,4 +1,21 @@
-**CCSE-1322 Lab & Assignments**
+**CCSE-1322L Program Problems Solving II Lab Assignments**
+
+Class: 1322L
+
+Section: J01
+
+Term: Spring 2023
+
+G2A: Satya Sri Keerthi Thammanapudi
+
+Name: David Holland
+
+This is my github repository of all my lab projects 
+for the Spring 2023 Semester at Kennesaw State University
+
+[CCSE-1322 Lab Assignments](https://ccse.kennesaw.edu/fye/labs_and_assignments.php)
+
+[CCSE-1322 Resources](https://ccse.kennesaw.edu/fye/resources.php)
 
 Current Assignments:
 
@@ -8,6 +25,5 @@ Current Assignments:
     4. Assignment 1
 
 ______________________
-This GitHub repository contains all the lab assignments for 
-the Spring 2023 semester.
+
 
