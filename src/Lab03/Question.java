@@ -1,9 +1,9 @@
 package Lab03;
 
 public class Question {
-    private final String questionText;
-    private final String questionAnswer;
-    private final int difficulty;
+    private String questionText;
+    private String questionAnswer;
+    private int difficulty;
     public Question(String question, String answer, int diff ) {
         this.questionText = question;
         this.questionAnswer = answer;
@@ -21,6 +21,11 @@ public class Question {
     public String getQuestionText() {
         return questionText;
     }
+
+    public void setQuestionText(String questionText) { this.questionText = questionText; }
+    public void setQuestionAnswer(String questionAnswer) { this.questionAnswer = questionAnswer; }
+    public void setDifficulty(int difficulty) { this.difficulty = difficulty; }
+
 
 
 }

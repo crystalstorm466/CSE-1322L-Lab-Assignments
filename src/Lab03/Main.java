@@ -17,15 +17,7 @@ public class Main {
             int userInput = scan.nextInt();
             switch(userInput) {
                 case 1:
-                    System.out.print("What is the question? ");
-                    String ques = scan.nextLine();
-                    scan.nextLine();
-                    System.out.println("What is the answer? ");
-                    System.out.print(" ");
-                    String ans = scan.nextLine();
-                    System.out.print("What is the difficulty? ");
-                    int diff = scan.nextInt();
-                    quiz1.add_question(ques, ans, diff);
+                    quiz1.add_question();
                     break;
                 case 2:
                     quiz1.remove_question();
@@ -38,6 +30,10 @@ public class Main {
                     break;
                 case 5:
                     System.exit(0);
+                default:
+                  //  throw new IllegalStateException("Unexpected value: " + userInput); //generated from intelliJ auto-complete
+                    System.out.println("Invalid Option! Option: " + userInput + "4\nPlease try again!");
+                    break;
             }
         } while (menu);
     }
