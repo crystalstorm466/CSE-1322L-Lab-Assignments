@@ -19,8 +19,8 @@ public class Main {
                 case 1:
                     System.out.print("What is the question? ");
                     String ques = scan.nextLine();
-                    System.out.print(" ");
-                    System.out.print("What is the answer? ");
+                    scan.nextLine();
+                    System.out.println("What is the answer? ");
                     System.out.print(" ");
                     String ans = scan.nextLine();
                     System.out.print("What is the difficulty? ");

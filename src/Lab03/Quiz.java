@@ -25,7 +25,7 @@ public class Quiz {
         }
         System.out.print("What question do you want to modify? ");
         int userInput = scan.nextInt();
-        System.out.println("What is the new question? ");
+        System.out.print("What is the new question? ");
         String ques = scan.nextLine();
         System.out.println("What is the new answer? ");
         String ans = scan.nextLine();
