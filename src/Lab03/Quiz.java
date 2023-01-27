@@ -26,6 +26,7 @@ public class Quiz {
         }
         System.out.print("What question do you want to remove? ");
         int userInput = scan.nextInt();
+
         QuestionsList.remove(userInput);
     }
 
@@ -54,10 +55,10 @@ public class Quiz {
         for (int i = 0; i < QuestionsList.size(); i++) {
             quizSize++;
             System.out.println(i+1 + ": " + QuestionsList.get(i).getQuestionText());
-            scan.nextLine();
+          //  scan.nextLine();
             String answer = scan.nextLine();
-            answer.toLowerCase();
-            if (answer.equals(QuestionsList.get(i).getQuestionAnswer()))  {
+            scan.next();
+            if (answer.equalsIgnoreCase(QuestionsList.get(i).getQuestionAnswer()))  {
                 System.out.println("Correct!");
                 correct_Answers++;
             } else {
