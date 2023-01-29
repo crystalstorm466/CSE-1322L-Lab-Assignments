@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8738321-e15f-478e-b441-c4b789b28a48" name="Changes" comment="removed the scratch work i don't need since it was for a quiz">
+    <list default="true" id="a8738321-e15f-478e-b441-c4b789b28a48" name="Changes" comment="I think everything works or at least I'll get partial credit">
+      <change afterPath="$PROJECT_DIR$/src/Assignment02/Lot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment02/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab04/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab04/Checking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab04/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab04/Savings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab03/Quiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab03/Quiz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lectureCode/scratchWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lectureCode/scratchWork.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lectureCode/ActualCalculations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lectureCode/calculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lectureCode/scratchWork.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,16 +40,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.20344828&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/DCHol/IdeaProjects/Lab04",
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.20344828"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -133,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674667761452</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="I think everything works or at least I'll get partial credit">
+      <created>1674852724671</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1674852724671</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -159,6 +177,7 @@
     <MESSAGE value="made it annoying to use by randomizing the operation" />
     <MESSAGE value="added package statement" />
     <MESSAGE value="removed the scratch work i don't need since it was for a quiz" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed the scratch work i don't need since it was for a quiz" />
+    <MESSAGE value="I think everything works or at least I'll get partial credit" />
+    <option name="LAST_COMMIT_MESSAGE" value="I think everything works or at least I'll get partial credit" />
   </component>
 </project>
