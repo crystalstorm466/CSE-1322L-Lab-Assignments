@@ -2,7 +2,6 @@ package Assignment02;
 
 public class Lot {
 
-    private int LotNumber;
     private String description;
     private int currentBid;
     private int bidIncrements;
