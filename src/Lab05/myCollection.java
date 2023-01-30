@@ -13,18 +13,21 @@ public class myCollection {
             if (userChar.equalsIgnoreCase("B")) {
                 System.out.print("What is the title? ");
                 String title = scan.nextLine();
+                scan.next();
                 System.out.print("What is the author? ");
                 String author = scan.nextLine();
+                scan.next();
                 System.out.print("What is the ISBN Number? ");
                 int isbn = scan.nextInt();
-                Item newBook = new Book(isbn, author, title);
+                Book newBook = new Book(isbn, author, title);
                 Library.add(newBook);
             } else if (userChar.equalsIgnoreCase("C")) {
                 System.out.print("What is the title? ");
                 String tile = scan.nextLine();
+                scan.next();
                 System.out.print("What is the issue number? ");
                 int issue = scan.nextInt();
-                Item newPeriod = new Periodical(tile, issue);
+                Periodical newPeriod = new Periodical(tile, issue);
                 Library.add(newPeriod);
             }
         }
