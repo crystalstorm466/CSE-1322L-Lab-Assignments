@@ -38,6 +38,8 @@ public class Lot {
 
     public boolean getSold() { return sold; }
 
+    public int getCurrentBid() { return currentBid; }
+
     public int getBidIncrements() { return bidIncrements; }
     public String getDescription() { return description; }
 
