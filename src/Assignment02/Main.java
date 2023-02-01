@@ -16,8 +16,10 @@ public class Main {
 
     public static void addItem(ArrayList<Lot> listLots) {
         Scanner scan = new Scanner(System.in);
+        scan.nextLine();
         System.out.print("What is the new description?: ");
-        String userDescr = scan.next();
+        String userDescr = scan.nextLine();
+        scan.nextLine();
         System.out.print("What is the bid increment?: ");
         int bidInc = scan.nextInt();
         scan.nextLine();
