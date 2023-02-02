@@ -27,9 +27,9 @@ public class Lot {
 
     public String toString()  {
         if (sold) {
-            return ("Lot " + lotNumber + ". " + description + " was sold for $" + currentBid);
+            return ("Lot " + lotNumber + ". " + description + ": was sold for $" + currentBid);
         } else {
-            return ("Lot " + lotNumber + ". " + description + " current bid $" + currentBid + " minimum bid $" + nextBid());
+            return ("Lot " + lotNumber + ". " + description + ": current bid: $" + currentBid + " minimum bid: $" + nextBid());
         }
     }
 

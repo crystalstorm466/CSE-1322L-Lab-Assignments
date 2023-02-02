@@ -20,11 +20,10 @@ public class Main {
         System.out.print("What is the new description?: ");
         String userDescr = scan.nextLine();
         scan.nextLine();
-        System.out.print("What is the bid increment?: ");
-        int bidInc = scan.nextInt();
-        scan.nextLine();
         System.out.print("How much do you want to bid?: ");
         int bid = scan.nextInt();
+        System.out.print("What is the bid increment?: ");
+        int bidInc = scan.nextInt();
         Lot newItem = new Lot(userDescr, bidInc, bid);
         listLots.add(newItem);
         currentLot = newItem;
@@ -79,7 +78,8 @@ public class Main {
                             break;
                         } else {
                             currentLot = getNextLot(lots);
-                            bid(currentLot);
+                            System.out.println(currentLot);
+                           // bid(currentLot);
                             break;
                         }
                     } else {
