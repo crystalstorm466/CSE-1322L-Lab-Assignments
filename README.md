@@ -10,7 +10,7 @@ G2A: Satya Sri Keerthi Thammanapudi
 
 Name: David Holland
 
-This is my github repository of all my lab projects 
+This is my GitHub repository of all my lab projects 
 for the Spring 2023 Semester at Kennesaw State University
 
 [CCSE-1322 Lab Assignments](https://ccse.kennesaw.edu/fye/labs_and_assignments.php)
@@ -29,4 +29,6 @@ Current Assignments:
 
 ______________________
 
+This repository will be kept private until late in the Semester when
+there's a lot more assignments.
 
