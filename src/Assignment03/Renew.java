@@ -6,7 +6,7 @@ public class Renew extends Customer {
 
     public Renew(String customerName) {
       super("B");
-      Customer.ticketNumber++;
+      ticketNumber++;
 
         /*Customer renewCustomer = new Customer("B") {
             @Override

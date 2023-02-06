@@ -7,8 +7,8 @@ public class Move extends Customer {
 
     public Move(String name, String state) {
         super("C");
-        Customer.ticketNumber++;
-       /*
+        ticketNumber++;
+           /*
         Customer moverCustomer = new Customer("C") {
             @Override
             protected String getCustomerInfo() {

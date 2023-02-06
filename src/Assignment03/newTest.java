@@ -7,7 +7,7 @@ public class newTest extends Customer {
 
     public newTest(String name, String dateOfBirth) {
         super("A");
-        Customer.ticketNumber++;
+        ticketNumber++;
         this.customerName = name;
         this.dateOfBirth = dateOfBirth;
     }

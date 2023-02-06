@@ -8,7 +8,7 @@ public class Suspended extends Customer {
     public Suspended(String name, String suspension) {
         super("D");
 
-        Customer.ticketNumber++;
+        ticketNumber++;
         susTicket = ticketNumber;
         /*
         Customer suspendedCustomer = new Customer("D") {

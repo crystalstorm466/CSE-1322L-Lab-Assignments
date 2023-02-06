@@ -4,10 +4,6 @@ public abstract class Customer {
 
     private static String letter;
     static int ticketNumber;
-    static int ANumber;
-    static int BNumber;
-    static int CNumber;
-    static int DNumber;
     private static String wholeTicket;
 
     public Customer() {
