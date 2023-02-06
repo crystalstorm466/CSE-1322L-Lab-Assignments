@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8738321-e15f-478e-b441-c4b789b28a48" name="Changes" comment="Works; but it doesn't work in the exact order that the Assignment PDF the school has.">
-      <change afterPath="$PROJECT_DIR$/src/Assignment02/Main.java.bak" afterDir="false" />
+    <list default="true" id="a8738321-e15f-478e-b441-c4b789b28a48" name="Changes" comment="Updated README.md">
+      <change afterPath="$PROJECT_DIR$/src/Assignment03/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment03/Renew.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment03/newTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lectureCode/ActualCalculations.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lectureCode/calculator.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lectureCode/scratchWork.java" beforeDir="false" />
@@ -216,7 +219,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675351466229</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Commited worspace.xml">
+      <created>1675351698715</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1675351698715</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Updated README.md">
+      <created>1675351858535</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1675351858535</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -252,17 +269,8 @@
     <MESSAGE value="works and figured out how to take multiple words in input finally &#10;put scan.nextline above  the print statement that asks for your input" />
     <MESSAGE value="correctly creates new auction lists but need to figure out how to store them in a list and go through the list correctly" />
     <MESSAGE value="Works; but it doesn't work in the exact order that the Assignment PDF the school has." />
-    <option name="LAST_COMMIT_MESSAGE" value="Works; but it doesn't work in the exact order that the Assignment PDF the school has." />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Assignment02/Main.java.bak</url>
-          <line>27</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Commited worspace.xml" />
+    <MESSAGE value="Updated README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated README.md" />
   </component>
 </project>

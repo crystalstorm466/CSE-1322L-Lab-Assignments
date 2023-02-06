@@ -26,6 +26,7 @@ Current Assignments:
     5. Lab 5
     6. Assignment 1
     7. Assignment 2
+    8. Assignment 3
 
 ______________________
 
