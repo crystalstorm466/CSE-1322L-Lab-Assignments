@@ -3,7 +3,11 @@ package Assignment03;
 public abstract class Customer {
 
     private static String letter;
-    private static int ticketNumber;
+    static int ticketNumber;
+    static int ANumber;
+    static int BNumber;
+    static int CNumber;
+    static int DNumber;
     private static String wholeTicket;
 
     public Customer() {
@@ -12,7 +16,7 @@ public abstract class Customer {
     }
 
     public Customer(String letter) {
-        if (letter.equalsIgnoreCase("A") || letter.equalsIgnoreCase("B") || letter.equalsIgnoreCase("C") || letter.equalsIgnoreCase("D")) {
+      if (letter.equalsIgnoreCase("A") || letter.equalsIgnoreCase("B") || letter.equalsIgnoreCase("C") || letter.equalsIgnoreCase("D")) {
             Customer.letter = letter;
         } else {
             Customer.letter = "X";
@@ -22,7 +26,7 @@ public abstract class Customer {
         //Customer.ticketNumber = ticket;
     }
 
-    protected String getWholeTicketNumber() { return (letter+ticketNumber); }
+    protected String getWholeTicketNumber() { return (letter+ ticketNumber); }
 
     protected abstract String getCustomerInfo();
 

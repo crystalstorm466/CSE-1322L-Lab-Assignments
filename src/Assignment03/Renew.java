@@ -2,21 +2,25 @@ package Assignment03;
 
 public class Renew extends Customer {
 
-    private String customerName;
+    private final String customerName;
 
     public Renew(String customerName) {
-        Customer newCustomer = new Customer("B") {
+      super("B");
+      Customer.ticketNumber++;
+
+        /*Customer renewCustomer = new Customer("B") {
             @Override
             protected String getCustomerInfo() {
                 return ("Renewal License. " + Renew.this.getWholeTicketNumber() + ". Name: " + customerName);
             }
-        };
+        };*/
         this.customerName = customerName;
 
 
         }
     @Override
     protected String getCustomerInfo() {
-        return null;
+
+        return ("Renewal License. " + Renew.this.getWholeTicketNumber() + ". Name: " + customerName);
     }
 }

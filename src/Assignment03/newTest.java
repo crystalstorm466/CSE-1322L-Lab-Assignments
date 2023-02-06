@@ -2,12 +2,12 @@ package Assignment03;
 
 public class newTest extends Customer {
 
-    private String customerName;
-    private String dateOfBirth;
+    private final String customerName;
+    private final String dateOfBirth;
 
     public newTest(String name, String dateOfBirth) {
-        Customer newCustomer = new Customer("A");
-
+        super("A");
+        Customer.ticketNumber++;
         this.customerName = name;
         this.dateOfBirth = dateOfBirth;
     }
