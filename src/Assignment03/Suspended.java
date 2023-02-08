@@ -9,7 +9,6 @@ public class Suspended extends Customer {
         super("D");
 
         ticketNumber++;
-        susTicket = ticketNumber;
         /*
         Customer suspendedCustomer = new Customer("D") {
             @Override
