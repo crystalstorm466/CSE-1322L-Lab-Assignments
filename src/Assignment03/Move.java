@@ -4,10 +4,13 @@ public class Move extends Customer {
 
     private final String customerName;
     private final String newState;
+    private int ticketInc;
+    private static int moveNumber = 0;
 
     public Move(String name, String state) {
         super("C");
-        ticketNumber++;
+       // moveNumber++;
+      //  ticketNumber++;
            /*
         Customer moverCustomer = new Customer("C") {
             @Override
@@ -18,6 +21,7 @@ public class Move extends Customer {
 
         */
         this.customerName = name;
+        this.ticketInc = getTicketNumber();
         this.newState = state;
 
 
@@ -25,6 +29,6 @@ public class Move extends Customer {
 
     @Override
     protected String getCustomerInfo() {
-        return ("Moved from " + newState + ". Ticket Number " + Move.this.getWholeTicketNumber() + " Name: " + customerName);
+        return ("Moved from " + newState + ". Ticket Number " + Move.this.getWholeTicketNumber( "D", ticketInc) + " Name: " + customerName);
     }
 }

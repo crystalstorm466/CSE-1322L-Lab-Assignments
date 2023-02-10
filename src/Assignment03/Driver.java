@@ -4,18 +4,17 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Driver {
-
     public static void main(String[] args) {
-        ArrayList<Customer> customerArrayList = new ArrayList<Customer>();
-        MainMenu(customerArrayList);
+        ArrayList<Customer> customerArrayList = new ArrayList<>();
+        menu(customerArrayList);
     }
 
-    private static void MainMenu(ArrayList<Customer> customerArrayList) {
+    private static void menu(ArrayList<Customer> customerArrayList) {
         boolean menu = true;
         Scanner scan = new Scanner(System.in);
         do {
             System.out.print("1. Take test for new license\n" +
-                    "2. Renew exsiting license\n" +
+                    "2. Renew existing license\n" +
                     "3. Move from out of state\n" +
                     "4. Answer citation/suspended license\n" +
                     "5. See current queue\n" +
@@ -28,7 +27,7 @@ public class Driver {
                     String name = scan.next();
                     System.out.print("What is your date of birth? ");
                     String DOB = scan.next();
-                    newTest driverTest = new newTest(name, DOB);
+                    NewTest driverTest = new NewTest(name, DOB);
                     customerArrayList.add(driverTest);
                     break;
                 case 2:
@@ -54,17 +53,18 @@ public class Driver {
                     customerArrayList.add(badCustomer);
                     break;
                 case 5:
-                    for (Customer customer : customerArrayList) {
+                    for (Customer customer : customerArrayList) { //I had the other type of for loop but IntelliJ told me to use this type instead
                         System.out.println(customer.getCustomerInfo());
                     }
                     break;
                 case 6:
                     System.out.println("Exiting...");
                     //menu = false;
-                    System.exit(401);
+                    System.exit(0);
                     break;
                 default:
                     System.out.println("Invalid Option " + userChoice + "! Please try again!");
+                    break;
                     //throw new IllegalStateException("Unexpected value: " + userChoice);
             }
 
