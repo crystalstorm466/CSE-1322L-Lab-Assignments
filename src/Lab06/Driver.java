@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Driver {
 
     public static void main(String[] args) {
-        System.out.print("Enter a number: ");
+        System.out.print("Enter the number you want to find the Fibonacci Series for: ");
         Scanner scan = new Scanner(System.in);
         int fib = scan.nextInt();
 
