@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8738321-e15f-478e-b441-c4b789b28a48" name="Changes" comment="Added Assignment 3">
+    <list default="true" id="a8738321-e15f-478e-b441-c4b789b28a48" name="Changes" comment="removed unused variables">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assignment03/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment03/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assignment03/Move.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment03/Move.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assignment03/Renew.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment03/Renew.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assignment03/Suspended.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment03/Suspended.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assignment03/newTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment03/newTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab06/FindIteration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab06/FindIteration.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,10 +38,11 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/DCHol/IdeaProjects/CSE-1322L-Lab-Assignments&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/DCHol/IdeaProjects/SpigotPlugin&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.20344828&quot;
+    &quot;project.structure.side.proportion&quot;: &quot;0.20344828&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
 }</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -239,7 +236,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675695230406</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Added Assignment 3">
+      <created>1675706379684</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1675706379684</updated>
+    </task>
+    <task id="LOCAL-00028" summary="removed unused variables">
+      <created>1675827661512</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1675827661512</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -278,6 +289,11 @@
     <MESSAGE value="Commited worspace.xml" />
     <MESSAGE value="Updated README.md" />
     <MESSAGE value="Added Assignment 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Assignment 3" />
+    <MESSAGE value="removed unused variables" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed unused variables" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
