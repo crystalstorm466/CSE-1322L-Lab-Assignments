@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8738321-e15f-478e-b441-c4b789b28a48" name="Changes" comment="removed unused variables">
+    <list default="true" id="a8738321-e15f-478e-b441-c4b789b28a48" name="Changes" comment="Lab 6 works 100%.">
+      <change afterPath="$PROJECT_DIR$/src/Lab07/CalcOp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab07/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab07/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab06/FindIteration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab06/FindIteration.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -250,7 +252,28 @@
       <option name="project" value="LOCAL" />
       <updated>1675827661512</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Lab 6 works 100%.">
+      <created>1676484329050</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1676484329050</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Lab 6 works 100%.">
+      <created>1676484337164</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1676484337164</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Lab 6 works 100%.">
+      <created>1676484474746</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1676484474746</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -265,7 +288,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="First Commit" />
     <MESSAGE value="Added Lab2. Everything works." />
     <MESSAGE value="renamed folder to Lab01 so when we reach double digits it stays in line" />
     <MESSAGE value="added default branch" />
@@ -290,7 +312,8 @@
     <MESSAGE value="Updated README.md" />
     <MESSAGE value="Added Assignment 3" />
     <MESSAGE value="removed unused variables" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed unused variables" />
+    <MESSAGE value="Lab 6 works 100%." />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab 6 works 100%." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
