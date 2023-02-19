@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8738321-e15f-478e-b441-c4b789b28a48" name="Changes" comment="Lab 6 works 100%.">
-      <change afterPath="$PROJECT_DIR$/src/Lab07/CalcOp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab07/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab07/Main.java" afterDir="false" />
+    <list default="true" id="a8738321-e15f-478e-b441-c4b789b28a48" name="Changes" comment="Lab 7 perfectly works and was really easy compared to everything else">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -273,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676484474746</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Lab 7 perfectly works and was really easy compared to everything else">
+      <created>1676655062252</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1676655062252</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -288,7 +292,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added Lab2. Everything works." />
     <MESSAGE value="renamed folder to Lab01 so when we reach double digits it stays in line" />
     <MESSAGE value="added default branch" />
     <MESSAGE value="cleaned up code" />
@@ -313,7 +316,8 @@
     <MESSAGE value="Added Assignment 3" />
     <MESSAGE value="removed unused variables" />
     <MESSAGE value="Lab 6 works 100%." />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab 6 works 100%." />
+    <MESSAGE value="Lab 7 perfectly works and was really easy compared to everything else" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab 7 perfectly works and was really easy compared to everything else" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

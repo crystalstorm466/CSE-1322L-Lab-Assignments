@@ -21,28 +21,28 @@ public class Main {
                     System.out.print("Please enter the first number ");
                     float num1 = scan.nextFloat();
                     System.out.print("Please enter the second number ");
-                    float num2 = scan.nextInt();
+                    float num2 = scan.nextFloat();
                     System.out.println(newCalculation.add(num1, num2));
                     break;
                 case 2:
                     System.out.print("Please enter the first number ");
                     num1 = scan.nextFloat();
                     System.out.print("Please enter the second number ");
-                    num2 = scan.nextInt();
+                    num2 = scan.nextFloat();
                     System.out.println(newCalculation.subtract(num1, num2));
                     break;
                 case 3:
                     System.out.print("Please enter the first number ");
                     num1 = scan.nextFloat();
                     System.out.print("Please enter the second number ");
-                    num2 = scan.nextInt();
+                    num2 = scan.nextFloat();
                     System.out.println(newCalculation.multiply(num1, num2));
                     break;
                 case 4:
                     System.out.print("Please enter the first number ");
                     num1 = scan.nextFloat();
                     System.out.print("Please enter the second number ");
-                    num2 = scan.nextInt();
+                    num2 = scan.nextFloat();
                     System.out.println(newCalculation.divide(num1, num2));
                     break;
                 default:
