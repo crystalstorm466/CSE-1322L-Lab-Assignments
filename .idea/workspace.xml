@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8738321-e15f-478e-b441-c4b789b28a48" name="Changes" comment="Lab 7 perfectly works and was really easy compared to everything else">
+    <list default="true" id="a8738321-e15f-478e-b441-c4b789b28a48" name="Changes" comment="realized that I had the scanner for the num2s were scan.nextInt() and not nextFloat().">
+      <change afterPath="$PROJECT_DIR$/src/Assignment04/Character.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment04/CharacterOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment04/CharacterThree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment04/CharacterTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment04/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment04/ISpeak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment04/Room.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +44,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/DCHol/IdeaProjects/SpigotPlugin&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/DCHol/IdeaProjects/CSE-1322L-Lab-Assignments&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.20344828&quot;,
@@ -277,7 +284,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676655062252</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="realized that I had the scanner for the num2s were scan.nextInt() and not nextFloat().">
+      <created>1676824508042</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1676824508043</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -292,7 +306,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="renamed folder to Lab01 so when we reach double digits it stays in line" />
     <MESSAGE value="added default branch" />
     <MESSAGE value="cleaned up code" />
     <MESSAGE value="coded a calculator in like 10 minutes" />
@@ -317,7 +330,8 @@
     <MESSAGE value="removed unused variables" />
     <MESSAGE value="Lab 6 works 100%." />
     <MESSAGE value="Lab 7 perfectly works and was really easy compared to everything else" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab 7 perfectly works and was really easy compared to everything else" />
+    <MESSAGE value="realized that I had the scanner for the num2s were scan.nextInt() and not nextFloat()." />
+    <option name="LAST_COMMIT_MESSAGE" value="realized that I had the scanner for the num2s were scan.nextInt() and not nextFloat()." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
