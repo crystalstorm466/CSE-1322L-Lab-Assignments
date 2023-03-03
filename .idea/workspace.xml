@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8738321-e15f-478e-b441-c4b789b28a48" name="Changes" comment="Added Assignment 4; Everything works.&#10;Used AI to generate the character descriptions lol">
-      <change afterPath="$PROJECT_DIR$/src/Lab08/Lab8A.java" afterDir="false" />
+    <list default="true" id="a8738321-e15f-478e-b441-c4b789b28a48" name="Changes" comment="Added Lab8A; Recursion">
+      <change afterPath="$PROJECT_DIR$/src/Lab08/Lab8B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab09/Lab9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab09/TimeException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -292,7 +294,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677087727586</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Added Lab8A; Recursion">
+      <created>1677598237501</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1677598237501</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Added Lab8A; Recursion">
+      <created>1677598276176</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1677598276176</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -307,7 +323,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="cleaned up code" />
     <MESSAGE value="coded a calculator in like 10 minutes" />
     <MESSAGE value="&quot;spams&quot; the user if they select 6 and if they use an even number" />
     <MESSAGE value="made the same method void" />
@@ -332,7 +347,8 @@
     <MESSAGE value="Lab 7 perfectly works and was really easy compared to everything else" />
     <MESSAGE value="realized that I had the scanner for the num2s were scan.nextInt() and not nextFloat()." />
     <MESSAGE value="Added Assignment 4; Everything works.&#10;Used AI to generate the character descriptions lol" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Assignment 4; Everything works.&#10;Used AI to generate the character descriptions lol" />
+    <MESSAGE value="Added Lab8A; Recursion" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Lab8A; Recursion" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
