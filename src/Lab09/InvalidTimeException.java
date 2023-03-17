@@ -1,7 +1,1 @@
-package Lab09;
-
-public class InvalidTimeException extends Exception{
-
-    public InvalidTimeException(String message) { super(message); }
-    
-}
+package Lab09; public class InvalidTimeException extends Exception{ public InvalidTimeException(String message) { super(message); } } //one line baby
