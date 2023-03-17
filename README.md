@@ -27,11 +27,12 @@ Current Assignments:
     6. Lab 6
     7. Lab 7
     8. Lab 8
-    9. Assignment 1
-    10. Assignment 2
-    11. Assignment 3
-    12. Assignment 4
-    13. Assignment 5
+    9. Lab 9
+    10. Assignment 1
+    11. Assignment 2
+    12. Assignment 3
+    13. Assignment 4
+    14. Assignment 5
 
 ______________________
 

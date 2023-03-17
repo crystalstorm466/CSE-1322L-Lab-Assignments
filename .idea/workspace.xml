@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8738321-e15f-478e-b441-c4b789b28a48" name="Changes" comment="Added Assignment 5">
-      <change afterPath="$PROJECT_DIR$/src/Lab09/InvalidTimeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab09/Lab9.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="a8738321-e15f-478e-b441-c4b789b28a48" name="Changes" comment="Added Lab 9. Exceptions">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab09/InvalidTimeException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab09/InvalidTimeException.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -328,7 +327,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678898883269</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Added Lab 9. Exceptions">
+      <created>1679061634836</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1679061634836</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -343,7 +349,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="&quot;spams&quot; the user if they select 6 and if they use an even number" />
     <MESSAGE value="made the same method void" />
     <MESSAGE value="made it annoying to use by randomizing the operation" />
     <MESSAGE value="added package statement" />
@@ -368,7 +373,8 @@
     <MESSAGE value="Added Assignment 4; Everything works.&#10;Used AI to generate the character descriptions lol" />
     <MESSAGE value="Added Lab8A; Recursion" />
     <MESSAGE value="Added Assignment 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Assignment 5" />
+    <MESSAGE value="Added Lab 9. Exceptions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Lab 9. Exceptions" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
