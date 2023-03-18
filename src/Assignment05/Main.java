@@ -15,9 +15,15 @@ public class Main {
     }
 
     public static String paperFold(int n) {
-        if (n == 1) { return "v"; }
-        //return symbol + paperFold(n - 1, symbol) + convertV(symbol);
-        return paperFold(n - 1) + "v" + replace(paperFold(n - 1));
+        if (n == 0) {
+            return "";
+        }
+
+        else {
+            String half = paperFold(n - 1);
+            char fold = (n % 2 == 0) ? '^' : 'v';
+            return half + fold + half;
+        }
     }
 
     public static String replace(String v) {
@@ -25,15 +31,6 @@ public class Main {
         return sb.reverse().toString().replaceAll("v", "^").replaceAll("\\^", "v");
     }
 
-    private static String convertV(String symbol) {
-        if (symbol.equalsIgnoreCase("v")) {
-            return "^";
-        } else if (symbol.equalsIgnoreCase("^")) {
-            return "v";
-        } else {
-            return "Error.";
-        }
-    }
 
     public static void main(String[] args) {
         System.out.print("What is the string you want to reverse?: ");
