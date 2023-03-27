@@ -52,20 +52,33 @@ public class Assignment6 {
     }
 
     public static void buyBitcoin(float bitcoinPrice) {
+        PrintWriter pw = null;
         try {
             File investmentUSD = new File("initialInvestmentUSD.txt");
             Scanner read = new Scanner(investmentUSD);
             ArrayList<String> investmentArray = new ArrayList<String>();
             int linecount = 0;
             while (read.hasNextLine()) {
-                String line = read.nextLine();
-
-                investmentArray.add(line);
                 linecount++;
 
-            }
+                String[] parts = read.nextLine().split(":");
+                String name = parts[linecount].trim();
+                investmentArray.add(name);
+                String investment = parts[linecount+1].trim();
+                investmentArray.add(investment);
+                // investmentArray.get(linecount).split(":");
+                // investmentArray.add(read.nextLine());
 
-         investmentUSD = new File("investmentUSD.txt");
+            }
+            float dollars = getDollarPrice(investmentArray);
+            File bitcointrans = new File("clientBC.txt");
+            pw = new PrintWriter(bitcointrans);
+            read = new Scanner(investmentUSD);
+            linecount = 0;
+            while (read.hasNextLine()) {
+                linecount++;
+                pw.println(parts[linecount] + ":" + parts[linecount+1]);
+            }
     } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
         }
