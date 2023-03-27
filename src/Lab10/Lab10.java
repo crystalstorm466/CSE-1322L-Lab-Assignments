@@ -35,16 +35,22 @@ public class Lab10 {
                 secondScanner.close();
                 return; //exits the program
             }
-            int i = 0;
-            for ( String s : fileList ) {
-                i++;
-                if (fileList.get(i) != secondFileList.get(i)) {
+            // for ( String s : fileList ) {
+            //     i++;
+            //     if (fileList.get(i) != secondFileList.get(i)) {
+            //         System.out.println("Line: " + i);
+            //         System.out.println("< " +secondFileList.get(i));
+            //         System.out.println("> "+fileList.get(i));
+            //     }
+            // }
+            
+            for (int i = 0; i < fileList.size(); i++) {
+                if (i < secondFileList.size() && !fileList.get(i).equals(secondFileList.get(i))){
                     System.out.println("Line: " + i);
-                    System.out.println("< " +secondFileList.get(i));
+                    System.out.println("< " + secondFileList.get(i));
                     System.out.println("> "+fileList.get(i));
                 }
             }
-
             firstScanner.close();
             secondScanner.close();
         } catch (IOException e) {
