@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8738321-e15f-478e-b441-c4b789b28a48" name="Changes" comment="Added Lab 9. Exceptions">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab09/InvalidTimeException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab09/InvalidTimeException.java" afterDir="false" />
+    <list default="true" id="a8738321-e15f-478e-b441-c4b789b28a48" name="Changes" comment="this was so annoying I just had BingAI write it lol">
+      <change afterPath="$PROJECT_DIR$/compare1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compare2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment06/Assignment6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab10/Lab10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ScratchWork/FileIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ScratchWork/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,8 +48,19 @@
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.20344828&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;PLAIN_TEXT&quot;
+    ]
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -334,7 +350,28 @@
       <option name="project" value="LOCAL" />
       <updated>1679061634836</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="ONE LINE!!!!!!!!!!!!!!">
+      <created>1679061691790</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1679061691790</updated>
+    </task>
+    <task id="LOCAL-00042" summary="ONE LINE!!!!!!!!!!!!!!">
+      <created>1679061702684</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1679061702684</updated>
+    </task>
+    <task id="LOCAL-00043" summary="this was so annoying I just had BingAI write it lol">
+      <created>1679112082758</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1679112082758</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -349,8 +386,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="made the same method void" />
-    <MESSAGE value="made it annoying to use by randomizing the operation" />
     <MESSAGE value="added package statement" />
     <MESSAGE value="removed the scratch work i don't need since it was for a quiz" />
     <MESSAGE value="I think everything works or at least I'll get partial credit" />
@@ -374,7 +409,9 @@
     <MESSAGE value="Added Lab8A; Recursion" />
     <MESSAGE value="Added Assignment 5" />
     <MESSAGE value="Added Lab 9. Exceptions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Lab 9. Exceptions" />
+    <MESSAGE value="ONE LINE!!!!!!!!!!!!!!" />
+    <MESSAGE value="this was so annoying I just had BingAI write it lol" />
+    <option name="LAST_COMMIT_MESSAGE" value="this was so annoying I just had BingAI write it lol" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
