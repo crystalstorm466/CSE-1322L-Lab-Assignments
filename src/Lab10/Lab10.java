@@ -9,8 +9,8 @@ public class Lab10 {
     public static void main(String[] args) throws IOException {
         Scanner scan = new Scanner(System.in);
         System.out.print("What is the first filename? ");
-        String firstFile = scan.next(); //do Lab10A.txt
-        System.out.print("What is the second filename? ");
+        String firstFile = scan.next(); //do Lab10A.txt you don't have to though
+        System.out.print("What is the second filename? "); //you don't have to though
         String secondFile = scan.next(); //do Lab10B.txt
         String previous = null;
         ArrayList<String> fileList = new ArrayList<>();
@@ -35,6 +35,7 @@ public class Lab10 {
                 secondScanner.close();
                 return; //exits the program
             }
+            //previous iteration so you can see my failed attempts lol
             // for ( String s : fileList ) {
             //     i++;
             //     if (fileList.get(i) != secondFileList.get(i)) {
