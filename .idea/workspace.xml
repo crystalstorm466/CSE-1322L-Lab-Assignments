@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8738321-e15f-478e-b441-c4b789b28a48" name="Changes" comment="Added Lab10">
+    <list default="true" id="a8738321-e15f-478e-b441-c4b789b28a48" name="Changes" comment="Update .gitignore">
       <change afterPath="$PROJECT_DIR$/src/Assignment06/Assignment6.java.bak" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/ScratchWork/FileIO.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/ScratchWork/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assignment06/Assignment6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment06/Assignment6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assignment06/initalInvestmentUSD.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/initalInvestmentUSD.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -411,7 +409,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679926338974</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Assignment6 is close to being done but the instructions are just making it difficult">
+      <created>1680187150270</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1680187150270</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Update .gitignore">
+      <created>1680187198609</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1680187198609</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -426,8 +438,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="I think everything works or at least I'll get partial credit" />
-    <MESSAGE value="added Lab04; didn't test though lmao" />
     <MESSAGE value="added Assignment 2; a lot of bugs though" />
     <MESSAGE value="added Lab5" />
     <MESSAGE value="added some more stuff" />
@@ -451,7 +461,9 @@
     <MESSAGE value="this was so annoying I just had BingAI write it lol" />
     <MESSAGE value="Added Assignment6" />
     <MESSAGE value="Added Lab10" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Lab10" />
+    <MESSAGE value="Assignment6 is close to being done but the instructions are just making it difficult" />
+    <MESSAGE value="Update .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update .gitignore" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
