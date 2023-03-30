@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8738321-e15f-478e-b441-c4b789b28a48" name="Changes" comment="this was so annoying I just had BingAI write it lol">
-      <change afterPath="$PROJECT_DIR$/compare1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/compare2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment06/Assignment6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab10/Lab10.java" afterDir="false" />
+    <list default="true" id="a8738321-e15f-478e-b441-c4b789b28a48" name="Changes" comment="Added Lab10">
+      <change afterPath="$PROJECT_DIR$/src/Assignment06/Assignment6.java.bak" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/ScratchWork/FileIO.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/ScratchWork/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assignment06/Assignment6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment06/Assignment6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assignment06/initalInvestmentUSD.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/initalInvestmentUSD.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,9 +56,29 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Assignment6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment06.Assignment6" />
+      <module name="CSE-1322L-Lab-Assignments" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Assignment06.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Assignment6" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -371,7 +390,28 @@
       <option name="project" value="LOCAL" />
       <updated>1679112082758</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Added Assignment6">
+      <created>1679924891003</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1679924891003</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Added Lab10">
+      <created>1679924917681</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1679924917681</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Added Lab10">
+      <created>1679926338974</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1679926338974</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -386,8 +426,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added package statement" />
-    <MESSAGE value="removed the scratch work i don't need since it was for a quiz" />
     <MESSAGE value="I think everything works or at least I'll get partial credit" />
     <MESSAGE value="added Lab04; didn't test though lmao" />
     <MESSAGE value="added Assignment 2; a lot of bugs though" />
@@ -411,7 +449,9 @@
     <MESSAGE value="Added Lab 9. Exceptions" />
     <MESSAGE value="ONE LINE!!!!!!!!!!!!!!" />
     <MESSAGE value="this was so annoying I just had BingAI write it lol" />
-    <option name="LAST_COMMIT_MESSAGE" value="this was so annoying I just had BingAI write it lol" />
+    <MESSAGE value="Added Assignment6" />
+    <MESSAGE value="Added Lab10" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Lab10" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
