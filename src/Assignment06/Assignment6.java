@@ -15,7 +15,9 @@ public class Assignment6 {
         Socket socket = new Socket("api.coindesk.com", 80);
         OutputStream output = socket.getOutputStream();
         PrintWriter writer = new PrintWriter(output, true);
-        writer.write("GET http://api.coindesk.com/v1/bpi/currentprice.json HTTP/1.0\n\n");
+        writer.println("GET http://api.coindesk.com/v1/bpi/currentprice.json HTTP/1.0");
+        writer.println();
+        writer.flush();
         Scanner socketScanner = new Scanner(socket.getInputStream());
         while (socketScanner.hasNextLine()) {
             sockeList.add(socketScanner.nextLine());
@@ -34,9 +36,8 @@ public class Assignment6 {
 
     public static void buyBitCoin(float bitcoinPrice) {
         try {
-            File investmentFile = new File("src/initalInvestmentUSD.txt");
+            File investmentFile = new File("src/initialInvestmentUSD.txt");
             BufferedReader br = new BufferedReader(new FileReader(investmentFile));
-            StringBuffer sb = new StringBuffer();
             String line;
             ArrayList<String> investmentArrayList = new ArrayList<>();
             ArrayList<Float>  investmentArrayFloats = new ArrayList<>();
@@ -54,14 +55,13 @@ public class Assignment6 {
                    }
                     count++;
                     investmentArrayList.add(part);
-                    System.out.println(investmentArrayList);
-                    System.out.println(investmentArrayFloats);
+
                 }
                 File cilentBC = new File("src/clientBC.txt");
                 FileWriter fw = new FileWriter(cilentBC);
 
                 for (int i = 0; i < investmentArrayFloats.size(); i++) {
-                    fw.write(investmentArrayList.get(i) + ":" + (investmentArrayFloats.get(i))/bitcoinPrice);
+                    fw.write((investmentArrayList.get(i) + ":" + (investmentArrayFloats.get(i))*bitcoinPrice) + "\n");
                 }
             }
         } catch (IOException e) {
@@ -83,7 +83,6 @@ public class Assignment6 {
                 float bitcoin;
                 for (String part : parts) {
                     try {
-                        ;
                         clientBitcoins.add(Float.parseFloat(part));
                         continue;
                     } catch (NumberFormatException e) {
@@ -91,12 +90,10 @@ public class Assignment6 {
                     }
                     count++;
                     clientNames.add(part);
-                    System.out.println(clientNames);
-                    System.out.println(clientBitcoins);
                 }
             }
             for (int i = 0; i < clientBitcoins.size(); i++) {
-                System.out.println(clientNames.get(i) + ":" + clientBitcoins.get(i) / currentValue);
+                System.out.println(clientNames.get(i) + ":$" + clientBitcoins.get(i) / currentValue);
             }
 
 
@@ -107,7 +104,8 @@ public class Assignment6 {
         }
     }
 
-    public static float getDollarPrice(ArrayList<String>lines) {
+    public static float getDollarPrice(ArrayList<String>
+                                               lines) {
         boolean header=true;
         String json="";
         for(String line : lines) {
@@ -128,8 +126,7 @@ public class Assignment6 {
         return price;
     }
 
-    public static Float getPersonFromFile(String persontoSearchFor, String fileToSearch) throws IOException, PersonNotFound {
-        File searchFile = new File(fileToSearch);
+    public static Float getPersonFromFile(String persontoSearchFor, File fileToSearch) throws IOException, PersonNotFound {
         BufferedReader br = new BufferedReader(new FileReader(fileToSearch));
         String line;
         ArrayList<String> clientNames = new ArrayList<>();
@@ -152,7 +149,7 @@ public class Assignment6 {
                 if (clientNames.get(i).equalsIgnoreCase(persontoSearchFor)) {
                     return clientBitcoins.get(i);
                 }
-                if (i == clientNames.size() - 1) {
+                if (i >= clientNames.size()) {
                     throw new PersonNotFound("Not Found!");
                 }
             }
@@ -165,14 +162,16 @@ public class Assignment6 {
         public static void main(String[] args) throws IOException, PersonNotFound {
         Scanner scan = new Scanner(System.in);
         do {
+            ArrayList<String> data = getData();
+            float dollarPrice = getDollarPrice(data);
+            System.out.println("The current price of bitcoin is " + dollarPrice);
             System.out.println("1. Bitcoin\n" +
                     "2. See everyone's value in USD\n" +
                     "3. See one persons gain/loss\n" +
                     "4. Quit\n" +
                     "");
             int userInput = scan.nextInt();
-            ArrayList<String> data = getData();
-            float dollarPrice = getDollarPrice(data);
+
             switch(userInput) {
                 case 1:
                     buyBitCoin(dollarPrice);
@@ -183,10 +182,14 @@ public class Assignment6 {
                 case 3:
                     System.out.println("Enter a name: ");
                     String person = scan.next();
-                    System.out.println("Enter a file to search for: ");
-                    String file = scan.next();
-                    float originalInvest = getPersonFromFile(person, file );
-                    float bitcoin = getCurrentValue(originalInvest);
+                    File invest = new File("src/initialInvestmentUSD.txt");
+                    File bitcoinPerson = new File("src/clientBC.txt");
+                    float originalInvest = getPersonFromFile(person, invest );
+                    float bitcoinsPerson = getPersonFromFile(person, bitcoinPerson);
+                    System.out.println("Original Investment " + originalInvest);
+                    System.out.println("Number of Bitcoins " + bitcoinsPerson);
+                    float currentValue = bitcoinsPerson*dollarPrice;
+                    System.out.println("Change in value " + (currentValue-originalInvest));
                     break;
                 case 4:
                     System.exit(0);

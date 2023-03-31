@@ -8,7 +8,10 @@
       <change afterPath="$PROJECT_DIR$/src/Assignment06/Assignment6.java.bak" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/ScratchWork/FileIO.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/ScratchWork/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/clientBC.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assignment06/Assignment6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment06/Assignment6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/initalInvestmentUSD.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/initialInvestmentUSD.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -423,7 +426,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680187198609</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Update .gitignore">
+      <created>1680187205794</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1680187205794</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
