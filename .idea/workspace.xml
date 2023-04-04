@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8738321-e15f-478e-b441-c4b789b28a48" name="Changes" comment="Added Assignment6; Works finally">
-      <change afterPath="$PROJECT_DIR$/src/Lab12/BlueRayDisk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab12/Main.java" afterDir="false" />
+    <list default="true" id="a8738321-e15f-478e-b441-c4b789b28a48" name="Changes" comment="Test commit">
       <change afterPath="$PROJECT_DIR$/src/Quiz/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,20 +85,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673139394607</updated>
-    </task>
-    <task id="LOCAL-00002" summary="First Commit">
-      <created>1673278614482</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1673278614482</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Added Lab2. Everything works.">
-      <created>1673360349519</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1673360349519</updated>
     </task>
     <task id="LOCAL-00004" summary="renamed folder to Lab01 so when we reach double digits it stays in line">
       <created>1673360387972</created>
@@ -431,7 +415,21 @@
       <option name="project" value="LOCAL" />
       <updated>1680282351637</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Added Lab12; Bit confusing with nodes">
+      <created>1680618825412</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1680618825412</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Test commit">
+      <created>1680618842492</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1680618842492</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -446,8 +444,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added Lab5" />
-    <MESSAGE value="added some more stuff" />
     <MESSAGE value="added the UML diagrams that are required for my labs now" />
     <MESSAGE value="the 2nd assignment is actually difficult based off the instructions I have" />
     <MESSAGE value="works and figured out how to take multiple words in input finally &#10;put scan.nextline above  the print statement that asks for your input" />
@@ -471,7 +467,9 @@
     <MESSAGE value="Assignment6 is close to being done but the instructions are just making it difficult" />
     <MESSAGE value="Update .gitignore" />
     <MESSAGE value="Added Assignment6; Works finally" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Assignment6; Works finally" />
+    <MESSAGE value="Added Lab12; Bit confusing with nodes" />
+    <MESSAGE value="Test commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test commit" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -24,7 +24,7 @@ public class BlueRayDisk {
 
     @Override
     public String toString() {
-        return ("$" + this.cost + " Year of Release " + this.yearOfRelease + ", " + this.director);
+        return ("$" + this.cost + ", Year of Release " + this.yearOfRelease + ", " + this.director);
     }
 
 }

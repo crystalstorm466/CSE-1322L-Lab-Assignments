@@ -23,9 +23,9 @@ public class Main {
                     System.out.println("What is the director? ");
                     String director = scan.nextLine();
                     scan.next();
-                    System.out.print("What is the year of release: ");
+                    System.out.println("What is the year of release?");
                     int year = scan.nextInt();
-                    System.out.print("What is the cost?: ");
+                    System.out.println("What is the cost?");
                     double cost = scan.nextDouble();
                     blueRayCollection.add(title, director, year, cost);
                     break;
