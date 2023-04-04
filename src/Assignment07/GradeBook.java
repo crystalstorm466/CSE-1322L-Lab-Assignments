@@ -12,7 +12,7 @@ public class GradeBook {
 
     public Student getStudent(String studentName) {
         Student s;
-        return s;
+        return null;
 
     }
 
