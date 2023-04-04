@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8738321-e15f-478e-b441-c4b789b28a48" name="Changes" comment="Update .gitignore">
-      <change afterPath="$PROJECT_DIR$/src/Assignment06/Assignment6.java.bak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ScratchWork/FileIO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ScratchWork/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/clientBC.txt" afterDir="false" />
+    <list default="true" id="a8738321-e15f-478e-b441-c4b789b28a48" name="Changes" comment="Added Assignment6; Works finally">
+      <change afterPath="$PROJECT_DIR$/src/Lab12/BlueRayDisk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab12/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Quiz/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assignment06/Assignment6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment06/Assignment6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/initalInvestmentUSD.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/initialInvestmentUSD.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +25,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -89,13 +87,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673139394607</updated>
-    </task>
-    <task id="LOCAL-00001" summary="First Commit">
-      <created>1673274644782</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1673274644782</updated>
     </task>
     <task id="LOCAL-00002" summary="First Commit">
       <created>1673278614482</created>
@@ -433,7 +424,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680187205794</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Added Assignment6; Works finally">
+      <created>1680282351637</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1680282351637</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -448,7 +446,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added Assignment 2; a lot of bugs though" />
     <MESSAGE value="added Lab5" />
     <MESSAGE value="added some more stuff" />
     <MESSAGE value="added the UML diagrams that are required for my labs now" />
@@ -473,7 +470,8 @@
     <MESSAGE value="Added Lab10" />
     <MESSAGE value="Assignment6 is close to being done but the instructions are just making it difficult" />
     <MESSAGE value="Update .gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update .gitignore" />
+    <MESSAGE value="Added Assignment6; Works finally" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Assignment6; Works finally" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
