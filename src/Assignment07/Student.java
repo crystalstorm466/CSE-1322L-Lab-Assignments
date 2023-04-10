@@ -33,31 +33,36 @@ public class Student {
     public void calcQuizAverage() {
         //quiz weight is 40%
         //lowest is dropped
+        int sumQuiz = 0;
         int lowest = this.quizScore[0];
         for (int j : this.quizScore) {
             if (j < lowest) {
                 lowest = j;
-                continue;
+             //   continue;
             }
-            this.quizAverage = quizAverage + lowest;
+            sumQuiz += quizAverage;
         }
-        this.quizAverage = (this.quizAverage - lowest) /9;
-        this.quizAverage = this.quizAverage *= 0.4;
+        this.quizAverage = (sumQuiz - lowest) / quizScore.length - 1;
+        this.quizAverage *= 0.4;
     }
+
+
+    public int[] getQuizScore() { return quizScore; }
+    public int[] getHomeworkScore() { return homeworkScore; }
 
     public void calcHWAverage() {
         //lowest is dropped
         //homework weight is 10%
+        int sumHw = 0;
         int lowest = this.homeworkScore[0];
         for ( int j : this.homeworkScore) {
             if ( j < lowest) {
                 lowest = j;
-                continue;
+           //     continue;
             }
-            this.homeworkAverage = homeworkAverage + lowest;
+            sumHw += homeworkAverage;
         }
-        this.homeworkAverage =  (this.homeworkAverage - lowest) /9;
-        this.homeworkAverage = this.homeworkAverage *= 0.10;
+        this.homeworkAverage =  (sumHw - lowest) /(homeworkScore.length);
     }
 
     public void calcOverallAverage() {
@@ -65,15 +70,16 @@ public class Student {
         //hw - 10%
         //midterm - 20%
         //final - 30%
-;
-        midtermGrade*=0.2;
-        finalGrade*=0.3;
-        overallAverage = (quizAverage+homeworkAverage+midtermGrade+finalGrade)/100;
+        double weightedhw = 0.1 * this.homeworkAverage;
+        double weightedquiz = 0.4 * this.quizAverage;
+        double weightedmidterm = 0.2 * this.midtermGrade;
+        double weightedFinal = 0.3 * this.finalGrade;
+        overallAverage = (int) (weightedhw + weightedquiz + weightedmidterm + weightedFinal)/100;
     }
 
     public String getGrade() {
         return ("HW Average: " + homeworkAverage + ".\nFinal Exam Average: " + finalGrade + ".\nOverall Average: " + overallAverage + ".");
     }
 
-    
+
 }

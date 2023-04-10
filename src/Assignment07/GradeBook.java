@@ -40,9 +40,21 @@ public class GradeBook {
 
     public void getStudentGrade(String studentName) {
 
-        for (int i = 0; i < students.size(); i++ ) {
-            if (studentName.equalsIgnoreCase(students.get(i).getName())) {
-                System.out.println(students.get(i).getName() + ": " + students.get(i).getGrade());
+        for (Student student : students) {
+            if (studentName.equalsIgnoreCase(student.getName())) {
+                int[] studentQuiz = student.getQuizScore();
+                int[] studentHomework = student.getHomeworkScore();
+                int count = 0;
+                for (int j : studentQuiz) {
+                    System.out.println("Quiz " + count + ": " + studentQuiz[count]);
+                    count++;
+                }
+                count = 0;
+                for (int m : studentHomework) {
+                    System.out.println("Hw " + count + ": " + studentHomework[count]);
+                    count++;
+                }
+                System.out.println(student.getName() + ": " + student.getGrade());
             }
         }
     }
@@ -55,6 +67,8 @@ public class GradeBook {
             }
         return namesofStudents;
         }
+
+
 }
 
 class Node {
