@@ -33,6 +33,7 @@ public class BlueRayDisk {
 
      public BlueRayDisk data;
      public Node next;
+     public Node head;
 
      public Node(BlueRayDisk data) {
          this.data = data;
