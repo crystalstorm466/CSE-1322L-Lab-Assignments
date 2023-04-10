@@ -12,10 +12,17 @@ public class StatisticGradeBook extends GradeBook implements Runnable {
         int numberStudents = studentNames.size();
         int processed = 0;
         for (String s : studentNames) {
-
-            System.out.println("Calculating grades " + processed + " out of " + numberStudents);
-            System.out.println("Quiz: " + s.);
+            Student s1 = getStudent(s);
+            s1.calcHWAverage();
+            s1.calcQuizAverage();
+            s1.calcOverallAverage();
+            processed++;
+            if (processed % 100 == 0) {
+                System.out.println("Calculating grades " + processed + " out of " + numberStudents);
+            }
+          //  System.out.println("Quiz: " + getStudentGrade(s));
 
         }
+        System.out.println("All grades calculated");
     }
 }

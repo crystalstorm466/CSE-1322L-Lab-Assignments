@@ -8,6 +8,7 @@ public class Student {
     private int homeworkAverage;
     private int overallAverage;
     private int quizAverage;
+
     private String Name;
     private int ID;
 
@@ -15,14 +16,15 @@ public class Student {
         String[] nameSplStrings = name.split(",");
         this.Name = nameSplStrings[0];
         this.ID = Integer.parseInt(nameSplStrings[1]);
+   
         for (int i = 2; i < 12; i++) {
-            this.quizScore[i] = Integer.parseInt(nameSplStrings[i]); //quiz
+            this.quizScore[i-2] = Integer.parseInt(nameSplStrings[i]);
+        } 
+        for (int i = 12; i < 22; i++) {
+            this.homeworkScore[i-12] = Integer.parseInt(nameSplStrings[i]);
         }
-        for (int i = 10; i < 21; i++) {
-            this.homeworkScore[i] = Integer.parseInt(nameSplStrings[i]); // hw
-        }
-        this.midtermGrade = Integer.parseInt(nameSplStrings[21]);
-        this.finalGrade = Integer.parseInt(nameSplStrings[22]);
+        this.midtermGrade = Integer.parseInt(nameSplStrings[22]);
+        this.finalGrade = Integer.parseInt(nameSplStrings[23]);
     }
 
     public String getName() { return Name; }
@@ -39,21 +41,23 @@ public class Student {
             }
             this.quizAverage = quizAverage + j;
         }
-        this.quizAverage = this.quizAverage/9;
+        this.quizAverage = (this.quizAverage - lowest) /9;
+        this.quizAverage = this.quizAverage *= 0.4;
     }
 
     public void calcHWAverage() {
         //lowest is dropped
         //homework weight is 10%
         int lowest = this.homeworkScore[0];
-        for (int j : this.homeworkScore) {
+        for ( int j : this.homeworkScore) {
             if ( j < lowest) {
                 lowest = j;
                 continue;
             }
             this.homeworkAverage = homeworkAverage + j;
         }
-        this.homeworkAverage = this.homeworkAverage/9;
+        this.homeworkAverage =  (this.homeworkAverage - lowest) /9;
+        this.homeworkAverage = this.homeworkAverage *= 0.10;
     }
 
     public void calcOverallAverage() {

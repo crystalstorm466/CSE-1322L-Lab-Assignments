@@ -12,7 +12,7 @@ public class GradeBook {
     private ArrayList<Student> students;
 
     public GradeBook(String fileName) {
-        this.head = null;
+        head = null;
         students = new ArrayList<Student>();
         try {
             File gradeBook = new File(fileName);
@@ -25,7 +25,7 @@ public class GradeBook {
             throw new RuntimeException(e);
         }
     }
-
+  
 
     public Student getStudent(String studentName) {
         for (int i = 0; i < students.size(); i++ ) {
@@ -55,6 +55,16 @@ public class GradeBook {
             }
         return namesofStudents;
         }
+}
+
+class Node {
+    public GradeBook data;
+    public Node next;
+    public Node head;
+
+    public Node(GradeBook data) {
+        this.data = data;
+        this.next = null;
     }
-    
+
 }
