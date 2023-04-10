@@ -39,7 +39,7 @@ public class Student {
                 lowest = j;
                 continue;
             }
-            this.quizAverage = quizAverage + j;
+            this.quizAverage = quizAverage + lowest;
         }
         this.quizAverage = (this.quizAverage - lowest) /9;
         this.quizAverage = this.quizAverage *= 0.4;
@@ -54,7 +54,7 @@ public class Student {
                 lowest = j;
                 continue;
             }
-            this.homeworkAverage = homeworkAverage + j;
+            this.homeworkAverage = homeworkAverage + lowest;
         }
         this.homeworkAverage =  (this.homeworkAverage - lowest) /9;
         this.homeworkAverage = this.homeworkAverage *= 0.10;
@@ -65,9 +65,7 @@ public class Student {
         //hw - 10%
         //midterm - 20%
         //final - 30%
-
-        quizAverage*=0.4;
-        homeworkAverage*=0.1;
+;
         midtermGrade*=0.2;
         finalGrade*=0.3;
         overallAverage = (quizAverage+homeworkAverage+midtermGrade+finalGrade)/100;
