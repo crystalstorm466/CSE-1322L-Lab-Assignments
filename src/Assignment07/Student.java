@@ -40,10 +40,10 @@ public class Student {
                 lowest = j;
              //   continue;
             }
-            sumQuiz += quizAverage;
+            sumQuiz += j;
         }
         this.quizAverage = (sumQuiz - lowest) / quizScore.length - 1;
-        this.quizAverage *= 0.4;
+     //   this.quizAverage *= 0.4;
     }
 
 
@@ -74,7 +74,7 @@ public class Student {
         double weightedquiz = 0.4 * this.quizAverage;
         double weightedmidterm = 0.2 * this.midtermGrade;
         double weightedFinal = 0.3 * this.finalGrade;
-        overallAverage = (int) (weightedhw + weightedquiz + weightedmidterm + weightedFinal)/100;
+        overallAverage = (int) (weightedhw + weightedquiz + weightedmidterm + weightedFinal);
     }
 
     public String getGrade() {

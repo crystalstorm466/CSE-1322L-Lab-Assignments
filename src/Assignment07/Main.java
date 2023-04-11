@@ -1,6 +1,5 @@
 package Assignment07;
 
-import java.io.File;
 import java.util.Scanner;
 
 public class Main {

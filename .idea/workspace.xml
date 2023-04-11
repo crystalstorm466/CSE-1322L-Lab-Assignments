@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8738321-e15f-478e-b441-c4b789b28a48" name="Changes" comment="Test commit">
+    <list default="true" id="a8738321-e15f-478e-b441-c4b789b28a48" name="Changes" comment="Updated files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assignment07/GradeBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment07/GradeBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assignment07/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment07/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Assignment07/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment07/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,13 +66,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673139394607</updated>
-    </task>
-    <task id="LOCAL-00004" summary="renamed folder to Lab01 so when we reach double digits it stays in line">
-      <created>1673360387972</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1673360387972</updated>
     </task>
     <task id="LOCAL-00005" summary="added default branch">
       <created>1673458194199</created>
@@ -410,7 +403,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680618842492</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Updated files">
+      <created>1681148950667</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1681148950668</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -425,7 +425,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added the UML diagrams that are required for my labs now" />
     <MESSAGE value="the 2nd assignment is actually difficult based off the instructions I have" />
     <MESSAGE value="works and figured out how to take multiple words in input finally &#10;put scan.nextline above  the print statement that asks for your input" />
     <MESSAGE value="correctly creates new auction lists but need to figure out how to store them in a list and go through the list correctly" />
@@ -450,7 +449,8 @@
     <MESSAGE value="Added Assignment6; Works finally" />
     <MESSAGE value="Added Lab12; Bit confusing with nodes" />
     <MESSAGE value="Test commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test commit" />
+    <MESSAGE value="Updated files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated files" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
